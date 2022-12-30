@@ -15,6 +15,7 @@ export default function Row({ guess, currentGuess }) {
 
   if (currentGuess) {
     let letters = currentGuess.split("");
+
     return (
       <div className="row current">
         {letters.map((letter, i) => (
